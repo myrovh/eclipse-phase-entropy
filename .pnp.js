@@ -161,6 +161,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.19"],
             ["@types/react-dom", "npm:16.9.5"],
             ["@yarnpkg/pnpify", "virtual:e43f70259c0578c4fb64696d7503fc8c7f26c16e717f1d7b3f6defc163b95024538837a4f88c474fdcef63598370a0825f194f84cdacb18ea09d9f01b879614f#npm:2.0.0-rc.17"],
+            ["eslint", "npm:6.8.0"],
             ["prettier", "npm:1.19.1"],
             ["react", "npm:16.12.0"],
             ["react-dom", "virtual:e43f70259c0578c4fb64696d7503fc8c7f26c16e717f1d7b3f6defc163b95024538837a4f88c474fdcef63598370a0825f194f84cdacb18ea09d9f01b879614f#npm:16.12.0"],
@@ -3533,7 +3534,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/fslib", "npm:2.0.0-rc.15"],
             ["comment-json", "npm:2.4.1"],
             ["cross-spawn", "npm:6.0.5"],
-            ["eslint", null],
+            ["eslint", "npm:6.8.0"],
             ["typescript", "patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=226bd1"]
           ],
           "packagePeers": [
@@ -6563,6 +6564,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:16.9.19"],
             ["@types/react-dom", "npm:16.9.5"],
             ["@yarnpkg/pnpify", "virtual:e43f70259c0578c4fb64696d7503fc8c7f26c16e717f1d7b3f6defc163b95024538837a4f88c474fdcef63598370a0825f194f84cdacb18ea09d9f01b879614f#npm:2.0.0-rc.17"],
+            ["eslint", "npm:6.8.0"],
             ["prettier", "npm:1.19.1"],
             ["react", "npm:16.12.0"],
             ["react-dom", "virtual:e43f70259c0578c4fb64696d7503fc8c7f26c16e717f1d7b3f6defc163b95024538837a4f88c474fdcef63598370a0825f194f84cdacb18ea09d9f01b879614f#npm:16.12.0"],
