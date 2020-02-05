@@ -1636,7 +1636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^6.11.0":
+"@testing-library/dom@npm:^6.11.0, @testing-library/dom@npm:^6.12.2":
   version: 6.12.2
   resolution: "@testing-library/dom@npm:6.12.2"
   dependencies:
@@ -1875,7 +1875,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__dom@npm:*, @types/testing-library__dom@npm:^6.0.0":
+"@types/testing-library__dom@npm:*, @types/testing-library__dom@npm:6.12.0, @types/testing-library__dom@npm:^6.0.0":
   version: 6.12.0
   resolution: "@types/testing-library__dom@npm:6.12.0"
   dependencies:
@@ -4890,13 +4890,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eclipse-phase-entropy@workspace:."
   dependencies:
+    "@testing-library/dom": ^6.12.2
     "@testing-library/jest-dom": ^5.1.1
     "@testing-library/react": ^9.4.0
     "@testing-library/user-event": ^8.1.0
     "@types/node": ^13.7.0
+    "@types/testing-library__dom": 6.12.0
     "@yarnpkg/pnpify": ^2.0.0-rc.17
     eslint: ^6.8.0
     prettier: ^1.19.1
+    prettier-plugin-package: ^0.3.1
     react: ^16.12.0
     react-dom: ^16.12.0
     react-scripts: 3.3.1
@@ -10810,6 +10813,15 @@ fsevents@^1.2.7:
   version: 1.0.4
   resolution: "prepend-http@npm:1.0.4"
   checksum: d35b410a527ad3d80468cc6c86d08e15afcd32b7d08dc27a9176f42181830e244f2255612b30c5dbe93b4a97eb7bb9ca2db23c66074489282a5e8776d9839f0f
+  languageName: node
+  linkType: hard
+
+"prettier-plugin-package@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "prettier-plugin-package@npm:0.3.1"
+  peerDependencies:
+    prettier: ^1.18.2
+  checksum: 91d3e0206aa3686ee89a84f5733e54f14ddcd586e451f39ae0645b11893e52a2baa0c1df86b50aae19d252e6d8bfc685c92b6e962c5fa07f0e68101b219f2503
   languageName: node
   linkType: hard
 
